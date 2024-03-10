@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Norican&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #333;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+}
+.refresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40vh;
+  font-size: 4rem;
+  h1 {
+    color: aquamarine;
+    font-family: "Lobster", sans-serif;
+  }
+}
+
+.dices {
+  display: flex;
+  flex-direction: row;
+  font-family: "Norican", cursive;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  h2 {
+    font-size: 3rem;
+    color: aqua;
+  }
+}
+footer {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.dice1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dice2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
